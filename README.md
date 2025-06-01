@@ -20,7 +20,7 @@ Prosty, responsywny kalkulator BMI (Body Mass Index) jako aplikacja webowa. Pozw
 
 ### Uruchomienie
 
-1. Sklonuj repozytorium: ``git clone https://github.com/chorobcia09/bmi-calculator.git``.
+1. Sklonuj repozytorium: ```git clone https://github.com/chorobcia09/bmi-calculator.git```.
 
 2. Uruchom `index.html`.
 
@@ -47,7 +47,7 @@ A simple, responsive BMI (Body Mass Index) calculator web app. It allows users t
 
 ## 🚀 Getting Started
 
-1. Clone the repository: ``git clone https://github.com/chorobcia09/bmi-calculator.git``.
+1. Clone the repository: ```git clone https://github.com/chorobcia09/bmi-calculator.git```.
 
 2. Run `index.html`
 
