@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +14,7 @@ body {
   justify-content: center;
   align-items: center;
   background: linear-gradient(135deg, #d3cce3, #e9e4f0);
-  font-family: "Segoe UI", sans-serif;
+  font-family: "Inter";
 }
 
 .container {
@@ -108,4 +110,50 @@ form {
   font-weight: bold;
   color: #333;
   text-align: center;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 90%;
+    padding: 30px 20px;
+    border-radius: 30px;
+  }
+
+  form {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .container-form {
+    padding: 0;
+  }
+
+  .container-button button {
+    width: 100%;
+  }
+
+  .result {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 20px 15px;
+    gap: 20px;
+  }
+
+  .form-input input {
+    padding: 10px 12px;
+    font-size: 14px;
+  }
+
+  .container-button button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .result {
+    font-size: 14px;
+  }
 }
